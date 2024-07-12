@@ -11,11 +11,11 @@
 body {
     box-sizing: border-box;
     color: $primary-text;
-    font-family: 'nunito';
+    font-family: 'OpenSans';
 }
 
 h1 {
-    font-family: 'roboto';
+    font-family: 'EBGaramond';
     font-size: 2rem;
     font-weight: 700;
     line-height: 2rem;
@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'roboto';
+    font-family: 'EBGaramond';
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.25rem;
@@ -37,7 +37,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'nunito';
+    font-family: 'EBGaramond';
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.25rem;
@@ -48,6 +48,7 @@ h3 {
 }
 
 p {
+    font-family: 'OpenSans';
     font-size: 0.875rem;
     font-weight: 400;
     line-height: 1.125rem;
