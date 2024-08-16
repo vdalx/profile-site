@@ -1,7 +1,7 @@
 /* COLOUR PALETTE */
 
 /* BACKGROUND COLOURS */
-$background-one: #E6E6E6FF;
+$primary-background: #E6E6E6FF;
 $secondary-background: #28282B;
 $tertiary-background: #E6E6E6;
 
@@ -15,6 +15,7 @@ $highlight-five: #E6E6E6FF;
 /* TEXT COLOURS */
 $primary-text: #28282B; 
 $secondary-text: #FFFFFF;
+$tertiary-text: #28282B;
 $warning-text: #8F0015; /* CARMINE */;
 
 /* FORMS */
@@ -31,3 +32,6 @@ $type-two-btn-border: #E2E2E2;
 $type-two-btn-text: #28282B;
 $type-three-btn: #078EED;
 $type-three-btn-border: #03487a;
+
+/* NAV */
+$nav-flyout-background: #078EED;

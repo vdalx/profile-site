@@ -17,17 +17,17 @@ const MainNavigation = () => {
         },
         {
             id: '2',
-            title: 'Events',
-            url: '/events',
+            title: 'Projects',
+            url: '/projects',
             cName: 'links',
-            cFlag: 'events'
+            cFlag: 'projects'
         },
         {
             id: '3',
-            title: 'Profile',
-            url: '/account',
+            title: 'About',
+            url: '/about',
             cName: 'links',
-            cFlag: 'profile'
+            cFlag: 'about'
         },
     ]
 
@@ -40,8 +40,8 @@ const MainNavigation = () => {
     return (
         <nav className='header-nav'>
         <Link to='/' className='header-nav__logo'>
-            <h1 className='header-nav__title'>take me 
-                <span className='header-nav__title--bold'> out</span>
+            <h1 className='header-nav__title'> Alex 
+                <span className='header-nav__title--bold'>Van Deuren</span>
             </h1>
         </Link>
         <div className='header-nav__menu-icon' onClick={handleClick}>
@@ -69,11 +69,6 @@ const MainNavigation = () => {
             })
             }
         </ul>
-        <div className='header-nav__profile-icon'>
-            <NavLink to='/account' className='header-nav__profile-icon-link'>
-                <ProfileIcon />
-            </NavLink>
-        </div>
     </nav>
     )
 }
